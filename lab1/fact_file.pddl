@@ -1,0 +1,13 @@
+(define (problem HAVEPIZZA)
+(:domain PIZZA) 
+(:objects a b c)
+(:INIT	(at c) 
+	(light off)
+	(switchlight a)
+	(key b)
+	(box c close)
+	(pizza c)
+)
+(:goal (and (have pizza) (at a)))
+)
+

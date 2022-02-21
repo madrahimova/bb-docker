@@ -1,0 +1,1 @@
+docker run --platform linux/i386 --rm -it -v "%cd%":/~ bb %*
