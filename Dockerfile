@@ -1,3 +1,3 @@
 FROM alpine
-RUN apt-get update -y && apt-get install -y blackbox
+RUN apt update -y && apt install -y blackbox
 CMD ["blackbox"]
