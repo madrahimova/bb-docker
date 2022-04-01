@@ -1,3 +1,5 @@
 FROM debian
-ADD bin/blackbox /bin
+WORKDIR /bin
+COPY bin/blackbox /bin
+RUN chmod +x /bin/blackbox
 ENTRYPOINT ["blackbox"]

@@ -9,9 +9,13 @@
 
 ``cd lab1``
 
-Запустить, указывая <b>~/</b> перед именем pddl
+Запустить, указывая <b>~/</b> перед именем pddl (Windows)
 
 ``../bb.cmd -o ~/operator_file.pddl -f ~/fact_file.pddl``
+
+Или запустить, ничего не указывая перед именем pddl (macOS)
+
+``../bb.sh -o operator_file.pddl -f fact_file.pddl``
 
 ## Пример
 ![alt text](result.jpg)

@@ -1,1 +1,1 @@
-docker run --platform linux/i386 --rm -it -v "%cd%":/~ bb %*
+docker run --platform linux/i386 --name blackbox --rm -it -v "%cd%":/~ bb %*
