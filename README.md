@@ -17,5 +17,5 @@
 
 ``../bb.sh -o operator_file.pddl -f fact_file.pddl``
 
-## Пример
+## Пример (outdated)
 ![alt text](result.jpg)
