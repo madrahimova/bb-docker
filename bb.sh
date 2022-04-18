@@ -1,3 +1,3 @@
 files=`for f in "$@" ; do echo "$f" done`
-dir=`PWD##*/`
+dir=${PWD##*/}
 docker run --platform linux/i386 --name blackbox --rm -it -v "$PWD":"/$dir" -w "/$dir" bb $files
